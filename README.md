@@ -24,6 +24,6 @@ Must group by buyer (not by item so that each buyer will have all their items on
 Report/View paid vs. unpaid items, sold vs. unsold items (items with no bids) Export selected information to Excel
 Might include buyer, item name, item category/number, winning bid, buyer address, buyer phone, paid/unpaid 
 
-I am still working on some pieces of this application and will add/update whenever anychanges are made.
+I am still working on some pieces of this application and will add/update whenever any change is made.
 
 Nikunj Ratnaparkhi
