@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[TempBidder] (
+    [bidId]         INT          IDENTITY (1, 1) NOT NULL,
+    [email]         VARCHAR (50) NULL,
+    [itemId]        VARCHAR (50) NULL,
+    [winningStatus] VARCHAR (50) NULL,
+    [paymentStatus] VARCHAR (50) NULL,
+    [bidAmount]     VARCHAR (50) NULL,
+    [phoneNum]      VARCHAR (50) NULL,
+    [name]          VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([bidId] ASC)
+);
+

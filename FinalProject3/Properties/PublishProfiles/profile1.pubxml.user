@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>W:\App8</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddAuctionItem.aspx">
+      <publishTime>11/26/2015 00:41:32</publishTime>
+    </File>
+    <File Include="auctionItemDetails.aspx">
+      <publishTime>11/14/2015 20:08:15</publishTime>
+    </File>
+    <File Include="AutionItemImages/10.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="AutionItemImages/11.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="AutionItemImages/8.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="AutionItemImages/9.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="AutionItemImages/Nikunj.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="bidAnonymous.aspx">
+      <publishTime>10/18/2015 21:32:01</publishTime>
+    </File>
+    <File Include="BiddingHomescreen.aspx">
+      <publishTime>11/26/2015 15:24:06</publishTime>
+    </File>
+    <File Include="bidOnline.aspx">
+      <publishTime>10/18/2015 21:32:38</publishTime>
+    </File>
+    <File Include="BidSheet.aspx">
+      <publishTime>11/09/2015 20:54:32</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>10/16/2015 22:15:50</publishTime>
+    </File>
+    <File Include="bin/FinalProject3.dll">
+      <publishTime>11/29/2015 19:32:09</publishTime>
+    </File>
+    <File Include="bin/FinalProject3.dll.config">
+      <publishTime>11/29/2015 19:16:51</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>11/07/2015 20:35:43</publishTime>
+    </File>
+    <File Include="BootstrapASP.Master">
+      <publishTime>11/29/2015 15:24:23</publishTime>
+    </File>
+    <File Include="checkadminRequest.aspx">
+      <publishTime>11/25/2015 22:47:05</publishTime>
+    </File>
+    <File Include="css/AddAuctionItem.css">
+      <publishTime>11/23/2015 00:08:45</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>10/16/2015 16:15:03</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css.map">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="css/bootstrap.css.map">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="css/EditSearch.css">
+      <publishTime>11/01/2015 16:24:16</publishTime>
+    </File>
+    <File Include="css/NavbarCss.css">
+      <publishTime>11/22/2015 23:48:45</publishTime>
+    </File>
+    <File Include="css/normalize.css">
+      <publishTime>10/16/2015 16:24:15</publishTime>
+    </File>
+    <File Include="css/SearchEdit.css">
+      <publishTime>11/25/2015 23:47:20</publishTime>
+    </File>
+    <File Include="css/signin.css">
+      <publishTime>11/22/2015 23:51:30</publishTime>
+    </File>
+    <File Include="css/SignUpCss.css">
+      <publishTime>10/18/2015 16:54:27</publishTime>
+    </File>
+    <File Include="css/UpdateProfile.css">
+      <publishTime>10/18/2015 18:44:57</publishTime>
+    </File>
+    <File Include="cssCart/bootstrap.css">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="cssCart/flexslider.css">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="cssCart/megamenu.css">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="cssCart/style.css">
+      <publishTime>11/26/2015 15:24:36</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/14/2015 20:52:36</publishTime>
+    </File>
+    <File Include="Dismiss.aspx">
+      <publishTime>11/14/2015 20:20:42</publishTime>
+    </File>
+    <File Include="EditandUpdateProBootstrap.aspx">
+      <publishTime>11/26/2015 13:48:44</publishTime>
+    </File>
+    <File Include="EnterWinner.aspx">
+      <publishTime>11/26/2015 00:34:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="GenerateReports.aspx">
+      <publishTime>11/29/2015 18:56:31</publishTime>
+    </File>
+    <File Include="HomeUI/.DS_Store">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/.DS_Store">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/animate.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/bootstrap.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/bootstrap.min.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/customStyle.css">
+      <publishTime>11/22/2015 13:29:53</publishTime>
+    </File>
+    <File Include="HomeUI/css/owl.carousel.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/owl.theme.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/responsive.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/css/style.css">
+      <publishTime>11/22/2015 12:24:38</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/.DS_Store">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/.DS_Store">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/css/font-awesome.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/css/font-awesome.min.css">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>11/22/2015 11:39:57</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/animated.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/bordered-pulled.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/core.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/fixed-width.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/font-awesome.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/icons.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/larger.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/list.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/mixins.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/path.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/rotated-flipped.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/stacked.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/less/variables.less">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/font-awesome.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_animated.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_core.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_fixed-width.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_icons.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_larger.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_list.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_mixins.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_path.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_stacked.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/font-awesome/scss/_variables.scss">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/fonts/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/22/2015 11:39:58</publishTime>
+    </File>
+    <File Include="HomeUI/img/.DS_Store">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/01.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/02.jpg">
+      <publishTime>11/22/2015 12:28:03</publishTime>
+    </File>
+    <File Include="HomeUI/img/03.jpg">
+      <publishTime>11/22/2015 13:04:14</publishTime>
+    </File>
+    <File Include="HomeUI/img/04.jpg">
+      <publishTime>11/22/2015 13:10:12</publishTime>
+    </File>
+    <File Include="HomeUI/img/05.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/.DS_Store">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/01.jpg">
+      <publishTime>11/22/2015 12:42:33</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/02.jpg">
+      <publishTime>11/22/2015 12:43:33</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/03.jpg">
+      <publishTime>11/22/2015 12:44:35</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/04.jpg">
+      <publishTime>11/22/2015 12:45:36</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/05.jpg">
+      <publishTime>11/22/2015 12:49:18</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/06.jpg">
+      <publishTime>11/22/2015 12:46:46</publishTime>
+    </File>
+    <File Include="HomeUI/img/client/07.jpg">
+      <publishTime>11/22/2015 12:49:33</publishTime>
+    </File>
+    <File Include="HomeUI/img/old3.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/01.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/02.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/03.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/04.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/05.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/06.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/07.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/portfolio/08.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/img/team/01.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="HomeUI/img/team/02.jpg">
+      <publishTime>11/22/2015 23:32:58</publishTime>
+    </File>
+    <File Include="HomeUI/img/team/03.jpg">
+      <publishTime>11/22/2015 23:33:13</publishTime>
+    </File>
+    <File Include="HomeUI/img/team/04.jpg">
+      <publishTime>11/22/2015 23:33:50</publishTime>
+    </File>
+    <File Include="HomeUI/img/_old.jpg">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/index.aspx">
+      <publishTime>11/25/2015 22:42:50</publishTime>
+    </File>
+    <File Include="HomeUI/js/.DS_Store">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/js/bootstrap.js">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/js/bootstrap.min.js">
+      <publishTime>11/22/2015 11:39:59</publishTime>
+    </File>
+    <File Include="HomeUI/js/jquery.1.11.1.js">
+      <publishTime>11/22/2015 11:40:00</publishTime>
+    </File>
+    <File Include="HomeUI/js/jquery.isotope.js">
+      <publishTime>11/22/2015 11:40:00</publishTime>
+    </File>
+    <File Include="HomeUI/js/main.js">
+      <publishTime>11/22/2015 11:40:00</publishTime>
+    </File>
+    <File Include="HomeUI/js/modernizr.custom.js">
+      <publishTime>11/22/2015 11:40:00</publishTime>
+    </File>
+    <File Include="HomeUI/js/owl.carousel.js">
+      <publishTime>11/22/2015 11:40:00</publishTime>
+    </File>
+    <File Include="HomeUI/js/SmoothScroll.js">
+      <publishTime>11/22/2015 11:40:00</publishTime>
+    </File>
+    <File Include="Images/FOT.jpg">
+      <publishTime>10/24/2015 11:39:03</publishTime>
+    </File>
+    <File Include="Images/FOT2.jpg">
+      <publishTime>11/22/2015 23:40:46</publishTime>
+    </File>
+    <File Include="Images/FOT3.jpg">
+      <publishTime>11/22/2015 17:32:12</publishTime>
+    </File>
+    <File Include="Images/images2.jpg">
+      <publishTime>11/01/2015 18:27:17</publishTime>
+    </File>
+    <File Include="Images/images3.jpg">
+      <publishTime>11/22/2015 21:15:29</publishTime>
+    </File>
+    <File Include="ImageTest.aspx">
+      <publishTime>10/16/2015 23:47:20</publishTime>
+    </File>
+    <File Include="includes/css/bootstrap-glyphicons.css">
+      <publishTime>11/29/2015 15:24:19</publishTime>
+    </File>
+    <File Include="includes/css/stylesCaro.css">
+      <publishTime>11/29/2015 15:24:19</publishTime>
+    </File>
+    <File Include="includes/fonts/glyphiconshalflings-regular.svg">
+      <publishTime>11/29/2015 15:27:19</publishTime>
+    </File>
+    <File Include="includes/js/jquery-1.8.2.min.js">
+      <publishTime>11/29/2015 15:28:33</publishTime>
+    </File>
+    <File Include="includes/js/modernizr-2.6.2.min.js">
+      <publishTime>11/29/2015 15:29:57</publishTime>
+    </File>
+    <File Include="includes/js/script.js">
+      <publishTime>11/29/2015 15:28:33</publishTime>
+    </File>
+    <File Include="Invoices.aspx">
+      <publishTime>11/14/2015 16:08:07</publishTime>
+    </File>
+    <File Include="itextsharp.dll">
+      <publishTime>11/07/2015 20:35:43</publishTime>
+    </File>
+    <File Include="js/BidSheetJS.js">
+      <publishTime>11/07/2015 11:43:19</publishTime>
+    </File>
+    <File Include="js/bootstrap-select.js">
+      <publishTime>11/01/2015 16:24:16</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>10/16/2015 16:15:04</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>10/16/2015 16:15:05</publishTime>
+    </File>
+    <File Include="js/footable.js">
+      <publishTime>11/01/2015 16:24:16</publishTime>
+    </File>
+    <File Include="js/footable.sort.js">
+      <publishTime>11/01/2015 16:24:16</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.3.js">
+      <publishTime>10/16/2015 18:29:42</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>11/01/2015 16:24:17</publishTime>
+    </File>
+    <File Include="js/jquery-ui.min.js">
+      <publishTime>11/01/2015 16:24:17</publishTime>
+    </File>
+    <File Include="js/new.js">
+      <publishTime>11/14/2015 16:50:06</publishTime>
+    </File>
+    <File Include="js/npm.js">
+      <publishTime>10/16/2015 16:15:05</publishTime>
+    </File>
+    <File Include="js/SearchEdit.js">
+      <publishTime>11/01/2015 16:24:17</publishTime>
+    </File>
+    <File Include="js/SignUpJS.js">
+      <publishTime>10/16/2015 18:43:11</publishTime>
+    </File>
+    <File Include="jsCart/imagezoom.js">
+      <publishTime>11/23/2015 15:10:36</publishTime>
+    </File>
+    <File Include="jsCart/jquery-1.11.1.min.js">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="jsCart/jquery-ui.min.js">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="jsCart/jquery.flexslider.js">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="jsCart/jquery.jscrollpane.min.js">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="jsCart/megamenu.js">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="jsCart/menu_jquery.js">
+      <publishTime>11/03/2015 23:16:02</publishTime>
+    </File>
+    <File Include="jsCart/simpleCart.min.js">
+      <publishTime>11/03/2015 23:16:03</publishTime>
+    </File>
+    <File Include="logo.jpg">
+      <publishTime>10/05/2015 22:28:25</publishTime>
+    </File>
+    <File Include="Logout.aspx">
+      <publishTime>11/14/2015 20:24:54</publishTime>
+    </File>
+    <File Include="printBidSheet.aspx">
+      <publishTime>11/22/2015 18:35:21</publishTime>
+    </File>
+    <File Include="ProfilePics/Nikunj.jpg">
+      <publishTime>11/29/2015 13:47:47</publishTime>
+    </File>
+    <File Include="SearchAucItem.aspx">
+      <publishTime>11/29/2015 17:32:43</publishTime>
+    </File>
+    <File Include="SearchBuy.aspx">
+      <publishTime>11/29/2015 17:30:58</publishTime>
+    </File>
+    <File Include="SearchMainPage.aspx">
+      <publishTime>11/29/2015 14:06:18</publishTime>
+    </File>
+    <File Include="SendInvoice.aspx">
+      <publishTime>11/29/2015 12:29:49</publishTime>
+    </File>
+    <File Include="ShowBidToUser.aspx">
+      <publishTime>11/14/2015 16:32:23</publishTime>
+    </File>
+    <File Include="SignIn.aspx">
+      <publishTime>11/26/2015 13:56:27</publishTime>
+    </File>
+    <File Include="SignUp.aspx">
+      <publishTime>11/26/2015 11:37:26</publishTime>
+    </File>
+    <File Include="SignUpSuccess.aspx">
+      <publishTime>11/25/2015 17:09:45</publishTime>
+    </File>
+    <File Include="Sorting.aspx">
+      <publishTime>11/29/2015 18:51:52</publishTime>
+    </File>
+    <File Include="UpdateProfileMainPage.aspx">
+      <publishTime>11/23/2015 16:44:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2015 19:17:06</publishTime>
+    </File>
+    <File Include="WinnerList.aspx">
+      <publishTime>11/29/2015 11:57:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

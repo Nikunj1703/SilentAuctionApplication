@@ -1,0 +1,33 @@
+1. In Sorting.aspx page: DataTable js(sorting etc.) not working.
+2. Need to create Loutout.aspx page
+3. Need to limit the functionalities based on Admin or normal user
+4. Update Profile page should display user's profile pic
+5. When signup is successful - generate a modal to show successful signup and email message reciept
+6. Need export to Excel functionality in Search Auction Items result page.
+7. If our Bidsheet window is open and if we logout from the main window, the Bidsheet still remains open.
+
+
+
+
+Selective View of Ids:
+1. MainLoginId - for Login Id
+2. MainSignUpId
+3. MainUpdateProfileId
+4. MainLogoutId
+5. MainSearchId
+6. MainDissmissId
+7. MainAddAuctionItemId
+8. EnterWinnerId
+9. LoggedInNameId
+10. UpdateWinnerInfoId
+11. CheckAdminRequestId
+12. ViewReportId
+13. SendInvoiceId
+
+Session Level variable:
+1. loginEmail
+2. permissionLevel
+
+
+
+

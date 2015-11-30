@@ -1,0 +1,22 @@
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 1.5%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    -webkit-filter: blur(0px);
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+   top: 1%;
+   
+   
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+

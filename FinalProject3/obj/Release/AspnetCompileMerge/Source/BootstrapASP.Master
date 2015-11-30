@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BootstrapASP.master.cs" Inherits="FinalProject3.BootstrapASP" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="css/SignUpCss.css" /> 
+    <link type="text/css" href="css/UpdateProfile.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/signin.css" />
+ 
+</head>
+<body>
+
+
+
+
+      <nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <asp:HyperLink ID="FOTId" class="navbar-brand" NavigateUrl="~/Default.aspx"  runat="server">Festival of Trees</asp:HyperLink>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><asp:HyperLink ID="BiddingHomeId" NavigateUrl="~/BiddingHomescreen.aspx"  runat="server">Bidding Homescreen</asp:HyperLink></li>
+          <li class="nav navbar-brand navbar-right"><asp:Label ID="LoggedInNameId" runat="server"></asp:Label></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Account</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><asp:HyperLink ID="MainLoginId" NavigateUrl="~/SignIn.aspx"  runat="server">Login</asp:HyperLink></li>
+             <li><asp:HyperLink ID="MainSignUpId" NavigateUrl="~/SignUp.aspx"  runat="server">SignUp</asp:HyperLink></li>
+              <li><asp:HyperLink ID="MainSearchId" Visible="false" NavigateUrl="~/SearchMainPage.aspx"  runat="server">Search Items | Users</asp:HyperLink></li>
+              <li><asp:HyperLink ID="MainAddAuctionItemId" Visible="false" NavigateUrl="~/AddAuctionItem.aspx"  runat="server">Add Auction Item</asp:HyperLink></li>
+              <li><asp:HyperLink ID="CheckAdminRequestId" Visible="false" NavigateUrl="~/checkadminRequest.aspx"  runat="server">Approve Requests</asp:HyperLink></li>
+           
+            <li><asp:HyperLink ID="MainUpdateProfileId" Visible="false" NavigateUrl="~/UpdateProfileMainPage.aspx"  runat="server">Update Profile</asp:HyperLink></li>
+
+            
+            <li><asp:HyperLink ID="EnterWinnerId" Visible="false" NavigateUrl="~/EnterWinner.aspx"  runat="server">Enter Winner From BidSheets</asp:HyperLink></li>
+            <li><asp:HyperLink ID="UpdateWinnerInfoId" Visible="false" NavigateUrl="~/Sorting.aspx"  runat="server">Update Winner Info</asp:HyperLink></li>
+              <li><asp:HyperLink ID="SendInvoiceId" Visible="false" NavigateUrl="~/WinnerList.aspx"  runat="server">Send Invoices</asp:HyperLink></li>
+            <li><asp:HyperLink ID="ViewReportId" Visible="false" NavigateUrl="~/GenerateReports.aspx"  runat="server">Generate Reports</asp:HyperLink></li>
+            <li><asp:HyperLink ID="MainLogoutId" Visible="false" NavigateUrl="~/Logout.aspx"  runat="server">Logout</asp:HyperLink></li>
+              <li><asp:HyperLink ID="MainDissmissId" Visible="false" NavigateUrl="~/Dismiss.aspx"  runat="server">Dismiss</asp:HyperLink></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+     <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <form id="form1" runat="server"> 
+
+
+
+
+         <link type="text/css" rel="stylesheet" href="css/NavbarCss.css" /> 
+
+
+
+    <div> 
+        <div class="container"> 
+            <div class="row-fluid"><div class="span12"></div></div>
+            <div class="row-fluid"> 
+              <div class="span2">  
+              </div> 
+              <div class="span10"> 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 
+              </div> 
+            </div> 
+        </div> 
+    </div>
+    </form> 
+    
+  
+    
+
+</body>
+</html>
+

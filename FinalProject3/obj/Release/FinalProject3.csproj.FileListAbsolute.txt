@@ -1,0 +1,6 @@
+H:\WebAndConsoleApps\FinalProject3\FinalProject3\bin\FinalProject3.dll.config
+H:\WebAndConsoleApps\FinalProject3\FinalProject3\bin\FinalProject3.dll
+H:\WebAndConsoleApps\FinalProject3\FinalProject3\bin\FinalProject3.pdb
+H:\WebAndConsoleApps\FinalProject3\FinalProject3\obj\Release\FinalProject3.dll
+H:\WebAndConsoleApps\FinalProject3\FinalProject3\obj\Release\FinalProject3.pdb
+H:\WebAndConsoleApps\FinalProject3\FinalProject3\obj\Release\FinalProject3.csprojResolveAssemblyReference.cache

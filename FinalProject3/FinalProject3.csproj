@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5CF0AA6-6C0E-4A21-89BA-23A9BD4890C7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalProject3</RootNamespace>
+    <AssemblyName>FinalProject3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.3.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Users\it3680123\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>D:\Users\it3680123\Desktop\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddAuctionItem.aspx" />
+    <Content Include="auctionItemDetails.aspx" />
+    <Content Include="AutionItemImages\10.jpg" />
+    <Content Include="AutionItemImages\11.jpg" />
+    <Content Include="AutionItemImages\8.jpg" />
+    <Content Include="AutionItemImages\9.jpg" />
+    <Content Include="AutionItemImages\Nikunj.jpg" />
+    <Content Include="BiddingHomescreen.aspx" />
+    <Content Include="BidSheet.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\FinalProject3.dll" />
+    <Content Include="bin\FinalProject3.pdb" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="checkadminRequest.aspx" />
+    <Content Include="cssCart\bootstrap.css" />
+    <Content Include="cssCart\flexslider.css" />
+    <Content Include="cssCart\megamenu.css" />
+    <Content Include="cssCart\style.css" />
+    <Content Include="css\AddAuctionItem.css" />
+    <Content Include="bidAnonymous.aspx" />
+    <Content Include="bidOnline.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\EditSearch.css" />
+    <Content Include="css\NavbarCss.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\SearchEdit.css" />
+    <Content Include="css\signin.css" />
+    <Content Include="css\SignUpCss.css" />
+    <Content Include="css\UpdateProfile.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Dismiss.aspx" />
+    <Content Include="EditandUpdateProBootstrap.aspx" />
+    <Content Include="EnterWinner.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GenerateReports.aspx" />
+    <Content Include="HomeUI\css\animate.css" />
+    <Content Include="HomeUI\css\bootstrap.css" />
+    <Content Include="HomeUI\css\bootstrap.min.css" />
+    <Content Include="HomeUI\css\customStyle.css" />
+    <Content Include="HomeUI\css\owl.carousel.css" />
+    <Content Include="HomeUI\css\owl.theme.css" />
+    <Content Include="HomeUI\css\responsive.css" />
+    <Content Include="HomeUI\css\style.css" />
+    <Content Include="HomeUI\fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="HomeUI\fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="HomeUI\fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="HomeUI\fonts\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HomeUI\img\01.jpg" />
+    <Content Include="HomeUI\img\02.jpg" />
+    <Content Include="HomeUI\img\03.jpg" />
+    <Content Include="HomeUI\img\04.jpg" />
+    <Content Include="HomeUI\img\05.jpg" />
+    <Content Include="HomeUI\img\client\01.jpg" />
+    <Content Include="HomeUI\img\client\02.jpg" />
+    <Content Include="HomeUI\img\client\03.jpg" />
+    <Content Include="HomeUI\img\client\04.jpg" />
+    <Content Include="HomeUI\img\client\05.jpg" />
+    <Content Include="HomeUI\img\client\06.jpg" />
+    <Content Include="HomeUI\img\client\07.jpg" />
+    <Content Include="HomeUI\img\old3.jpg" />
+    <Content Include="HomeUI\img\portfolio\01.jpg" />
+    <Content Include="HomeUI\img\portfolio\02.jpg" />
+    <Content Include="HomeUI\img\portfolio\03.jpg" />
+    <Content Include="HomeUI\img\portfolio\04.jpg" />
+    <Content Include="HomeUI\img\portfolio\05.jpg" />
+    <Content Include="HomeUI\img\portfolio\06.jpg" />
+    <Content Include="HomeUI\img\portfolio\07.jpg" />
+    <Content Include="HomeUI\img\portfolio\08.jpg" />
+    <Content Include="HomeUI\img\team\01.jpg" />
+    <Content Include="HomeUI\img\team\02.jpg" />
+    <Content Include="HomeUI\img\team\03.jpg" />
+    <Content Include="HomeUI\img\team\04.jpg" />
+    <Content Include="HomeUI\img\_old.jpg" />
+    <Content Include="HomeUI\index.aspx" />
+    <Content Include="HomeUI\js\bootstrap.js" />
+    <Content Include="HomeUI\js\bootstrap.min.js" />
+    <Content Include="HomeUI\js\jquery.1.11.1.js" />
+    <Content Include="HomeUI\js\jquery.isotope.js" />
+    <Content Include="HomeUI\js\main.js" />
+    <Content Include="HomeUI\js\modernizr.custom.js" />
+    <Content Include="HomeUI\js\owl.carousel.js" />
+    <Content Include="HomeUI\js\SmoothScroll.js" />
+    <Content Include="Images\FOT.jpg" />
+    <Content Include="Images\FOT2.jpg" />
+    <Content Include="Images\FOT3.jpg" />
+    <Content Include="Images\images2.jpg" />
+    <Content Include="Images\images3.jpg" />
+    <Content Include="ImageTest.aspx" />
+    <Content Include="includes\css\bootstrap-glyphicons.css" />
+    <Content Include="includes\css\stylesCaro.css" />
+    <Content Include="includes\fonts\glyphiconshalflings-regular.svg" />
+    <Content Include="includes\js\jquery-1.8.2.min.js" />
+    <Content Include="includes\js\modernizr-2.6.2.min.js" />
+    <Content Include="includes\js\script.js" />
+    <Content Include="Invoices.aspx" />
+    <Content Include="itextsharp.dll" />
+    <Content Include="jsCart\imagezoom.js" />
+    <Content Include="jsCart\jquery-1.11.1.min.js" />
+    <Content Include="jsCart\jquery-ui.min.js" />
+    <Content Include="jsCart\jquery.flexslider.js" />
+    <Content Include="jsCart\jquery.jscrollpane.min.js" />
+    <Content Include="jsCart\megamenu.js" />
+    <Content Include="jsCart\menu_jquery.js" />
+    <Content Include="jsCart\simpleCart.min.js" />
+    <Content Include="js\BidSheetJS.js" />
+    <Content Include="js\bootstrap-select.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\footable.js" />
+    <Content Include="js\footable.sort.js" />
+    <Content Include="js\jquery-1.11.3.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\new.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\SearchEdit.js" />
+    <Content Include="js\SignUpJS.js" />
+    <Content Include="logo.jpg" />
+    <Content Include="Logout.aspx" />
+    <Content Include="obj\Debug\FinalProject3.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\FinalProject3.dll" />
+    <Content Include="obj\Debug\FinalProject3.pdb" />
+    <Content Include="printBidSheet.aspx" />
+    <Content Include="ProfilePics\Nikunj.jpg" />
+    <Content Include="SearchAucItem.aspx" />
+    <Content Include="SearchBuy.aspx" />
+    <Content Include="SearchMainPage.aspx" />
+    <Content Include="HomeUI\.DS_Store" />
+    <Content Include="HomeUI\css\.DS_Store" />
+    <Content Include="HomeUI\fonts\.DS_Store" />
+    <Content Include="HomeUI\fonts\font-awesome\.DS_Store" />
+    <Content Include="HomeUI\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="HomeUI\fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="HomeUI\fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="HomeUI\fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="HomeUI\fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="HomeUI\fonts\font-awesome\less\animated.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\bordered-pulled.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\core.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\fixed-width.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\icons.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\larger.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\list.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\mixins.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\path.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\rotated-flipped.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\stacked.less" />
+    <Content Include="HomeUI\fonts\font-awesome\less\variables.less" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_animated.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_core.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_larger.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_list.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_path.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_stacked.scss" />
+    <Content Include="HomeUI\fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="HomeUI\fonts\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="HomeUI\fonts\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="HomeUI\fonts\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="HomeUI\fonts\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="HomeUI\img\.DS_Store" />
+    <Content Include="HomeUI\img\client\.DS_Store" />
+    <Content Include="HomeUI\js\.DS_Store" />
+    <Content Include="WinnerList.aspx" />
+    <None Include="Properties\PublishProfiles\profile1.pubxml" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="SendInvoice.aspx" />
+    <Content Include="ShowBidToUser.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="SignUpSuccess.aspx" />
+    <Content Include="Sorting.aspx" />
+    <Content Include="UpdateProfileMainPage.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAuctionItem.aspx.cs">
+      <DependentUpon>AddAuctionItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAuctionItem.aspx.designer.cs">
+      <DependentUpon>AddAuctionItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="auctionItemDetails.aspx.cs">
+      <DependentUpon>auctionItemDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="auctionItemDetails.aspx.designer.cs">
+      <DependentUpon>auctionItemDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bidAnonymous.aspx.cs">
+      <DependentUpon>bidAnonymous.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bidAnonymous.aspx.designer.cs">
+      <DependentUpon>bidAnonymous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BiddingHomescreen.aspx.cs">
+      <DependentUpon>BiddingHomescreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BiddingHomescreen.aspx.designer.cs">
+      <DependentUpon>BiddingHomescreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bidOnline.aspx.cs">
+      <DependentUpon>bidOnline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bidOnline.aspx.designer.cs">
+      <DependentUpon>bidOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BidSheet.aspx.cs">
+      <DependentUpon>BidSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BidSheet.aspx.designer.cs">
+      <DependentUpon>BidSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BootstrapASP.Master.cs">
+      <DependentUpon>BootstrapASP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootstrapASP.Master.designer.cs">
+      <DependentUpon>BootstrapASP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="checkadminRequest.aspx.cs">
+      <DependentUpon>checkadminRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkadminRequest.aspx.designer.cs">
+      <DependentUpon>checkadminRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseComponents.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dismiss.aspx.cs">
+      <DependentUpon>Dismiss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dismiss.aspx.designer.cs">
+      <DependentUpon>Dismiss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditandUpdateProBootstrap.aspx.cs">
+      <DependentUpon>EditandUpdateProBootstrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditandUpdateProBootstrap.aspx.designer.cs">
+      <DependentUpon>EditandUpdateProBootstrap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs" />
+    <Compile Include="EnterWinner.aspx.cs">
+      <DependentUpon>EnterWinner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnterWinner.aspx.designer.cs">
+      <DependentUpon>EnterWinner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateReports.aspx.cs">
+      <DependentUpon>GenerateReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenerateReports.aspx.designer.cs">
+      <DependentUpon>GenerateReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeUI\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeUI\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageTest.aspx.cs">
+      <DependentUpon>ImageTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageTest.aspx.designer.cs">
+      <DependentUpon>ImageTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoices.aspx.cs">
+      <DependentUpon>Invoices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoices.aspx.designer.cs">
+      <DependentUpon>Invoices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="printBidSheet.aspx.cs">
+      <DependentUpon>printBidSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="printBidSheet.aspx.designer.cs">
+      <DependentUpon>printBidSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchAucItem.aspx.cs">
+      <DependentUpon>SearchAucItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchAucItem.aspx.designer.cs">
+      <DependentUpon>SearchAucItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBuy.aspx.cs">
+      <DependentUpon>SearchBuy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchBuy.aspx.designer.cs">
+      <DependentUpon>SearchBuy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMainPage.aspx.cs">
+      <DependentUpon>SearchMainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchMainPage.aspx.designer.cs">
+      <DependentUpon>SearchMainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendInvoice.aspx.cs">
+      <DependentUpon>SendInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendInvoice.aspx.designer.cs">
+      <DependentUpon>SendInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ShowBidToUser.aspx.cs">
+      <DependentUpon>ShowBidToUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowBidToUser.aspx.designer.cs">
+      <DependentUpon>ShowBidToUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpSuccess.aspx.cs">
+      <DependentUpon>SignUpSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpSuccess.aspx.designer.cs">
+      <DependentUpon>SignUpSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sorting.aspx.cs">
+      <DependentUpon>Sorting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sorting.aspx.designer.cs">
+      <DependentUpon>Sorting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProfileMainPage.aspx.cs">
+      <DependentUpon>UpdateProfileMainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateProfileMainPage.aspx.designer.cs">
+      <DependentUpon>UpdateProfileMainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserBidInformation.cs" />
+    <Compile Include="WinnerList.aspx.cs">
+      <DependentUpon>WinnerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WinnerList.aspx.designer.cs">
+      <DependentUpon>WinnerList.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="BootstrapASP.Master" />
+    <Content Include="bin\FinalProject3.dll.config" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Service References\ServiceReference1\ISUSMS.wsdl" />
+    <None Include="Service References\ServiceReference1\ISUSMS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BidSheets\" />
+    <Folder Include="HomeUI\videos\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1498</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1498/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

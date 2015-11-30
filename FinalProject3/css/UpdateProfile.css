@@ -1,0 +1,22 @@
+﻿.input{
+border: 0;
+    background: transparent;
+} 
+
+.inputcolor{
+
+    border-style:solid;
+    border-color:brown;
+}
+
+.lab{
+    padding:10px;
+    margin-left:120px;
+}
+
+
+.btnedit{
+   margin-left:200px;
+}
+
+
