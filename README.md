@@ -3,7 +3,7 @@ ASP.NET C#
 
 In this project, we have developed a Silent Auction app for the Baby Fold's Festival of Trees event. This web-based app is to allow participants to bid on donated items (trees, wreaths, etc.) with proceeds going to help the needy.
 
-We have covered below use cases in this application which is developed using ASP.NET C#, Ajax, JavaScript, AjaxControl Toolkit,
+We have covered below use cases in this application which are developed using ASP.NET C#, Ajax, JavaScript, AjaxControl Toolkit,
 SOAP Web Services and client with to-and-fro communication with Microsoft sql server database.
 
 1. Sign-in User
